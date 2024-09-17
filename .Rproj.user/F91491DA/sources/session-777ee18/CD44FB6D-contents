@@ -11,15 +11,19 @@ This dataset provides water quality parameters collected from 7 monitoring sites
 
 You can install the development version of herbert from [GitHub](https://github.com/):
 
-## Usage 
-
-head(herbert)
-View(herbert)
-
-
 ``` r
 devtools::install_github("EdgarSantos-Fernandez/herbert")
 ```
+
+## Usage 
+
+``` r
+library(herbert)
+head(herbert)
+View(herbert)
+```
+
+
 
 See more details in the article:
 
