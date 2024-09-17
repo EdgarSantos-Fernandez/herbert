@@ -3,7 +3,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-herbert: This dataset contains water quality parameters from 7 sites in the Herbert River, located in Queensland, Australia, which flows into the Great Barrier Reef. It includes water level, precipitation, and total suspended solids (TSS), collected across different locations and times.
+This dataset provides water quality parameters collected from 7 monitoring sites along the Herbert River, Queensland, Australia, which flows into the Great Barrier Reef. The dataset includes key environmental parameters such as water level, precipitation, and total suspended solids (TSS), collected at various locations over time. Additionally, the dataset includes both ground truth labels for TSS measurements and predicted anomalies using package SSNbayes, enabling detailed analysis of water quality patterns and anomaly detection.
+
+    
 
 ## Installation
 
