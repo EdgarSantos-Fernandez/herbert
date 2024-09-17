@@ -1,0 +1,12 @@
+Package: herbert
+Type: Package
+Title: Herbert River Water Quality Dataset
+Version: 0.0.1
+Authors@R: c(person("Edgar", "Santos-Fernandez", role = c("aut", "cre","cph"), email = "edgar.santosfdez@gmail.com") )
+Depends: R (>= 4.0.0)
+Description: This dataset contains water quality parameters from 7 sites in the Herbert River, located in Queensland, Australia, which flows into the Great Barrier Reef. The dataset contains a variety of measurements related to water quality, including water level, precipitation, and total suspended solids (TSS), collected across different locations and times.
+Roxygen: list(markdown = TRUE)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
