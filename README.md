@@ -1,5 +1,4 @@
 # herbert
-<<<<<<< HEAD
 
 <!-- badges: start -->
 <!-- badges: end -->

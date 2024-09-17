@@ -3,7 +3,7 @@
     "path": "C:/1/herbert/R/herbert.R",
     "project_path": "R/herbert.R",
     "type": "r_source",
-    "hash": "3268290158",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1726572027479.0,
@@ -12,8 +12,8 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "14,17",
-        "scrollLine": "8"
+        "cursorPosition": "0,10",
+        "scrollLine": "0"
     },
     "folds": "",
     "lastKnownWriteTime": 1726575982,
