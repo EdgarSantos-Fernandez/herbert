@@ -11,6 +11,11 @@ This dataset provides water quality parameters collected from 7 monitoring sites
 
 You can install the development version of herbert from [GitHub](https://github.com/):
 
+## Usage 
+
+head(herbert)
+View(herbert)
+
 
 ``` r
 devtools::install_github("EdgarSantos-Fernandez/herbert")
@@ -62,5 +67,5 @@ Package for Bayesian Spatio-Temporal Modelling on Stream Networks.”
 arXiv. <https://doi.org/10.48550/ARXIV.2202.07166>.
 
 </div>
-=======
+
 
