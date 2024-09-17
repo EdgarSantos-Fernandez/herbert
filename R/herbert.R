@@ -1,9 +1,6 @@
 #' Herbert River Water Quality Dataset
 #'
-#' This dataset provides a comprehensive overview of water quality metrics from 7 sites in the Herbert River,
-#' located in Queensland, Australia, which flows into the Great Barrier Reef.
-#' The dataset contains a variety of measurements related to water quality, including water level, precipitation,
-#' and total suspended solids (TSS), collected across different locations and times.
+#' This dataset contains water quality parameters from 7 sites in the Herbert River, located in Queensland, Australia, which flows into the Great Barrier Reef. It includes water level, precipitation, and total suspended solids (TSS), collected across different locations and times.
 #' @docType data
 #' @name herbert
 #' @usage herbert
