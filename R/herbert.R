@@ -29,6 +29,8 @@
 #'   \item{tur_label}{The quality label assigned to the TSS data by experts (ground truth), indicating the reliability of the measurements.}
 #'   \item{tur_indicator}{The binary indicator for turbidity/TSS, obtained/predicted using a spatio-temporal model.}
 #' }
+#' @description
+#' We thank Cameron Roberts from the Department of Environment, Science and Innovation for producing the TSS labels.
 #' @source {Santos-Fernandez, Edgar, et al. (2024). Unsupervised anomaly detection in spatio-temporal stream network sensor data. arXiv preprint arXiv:2409.07667.}
 #' @keywords datasets
 #' @examples
