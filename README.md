@@ -9,7 +9,7 @@ This dataset provides water quality parameters collected from 7 monitoring sites
 
 ## Installation
 
-You can install the development version of herbert from [GitHub](https://github.com/):
+You can install the R package `herbert` directly from [GitHub](https://github.com/):
 
 ``` r
 devtools::install_github("EdgarSantos-Fernandez/herbert")
@@ -23,9 +23,7 @@ head(herbert)
 View(herbert)
 ```
 
-
-
-See more details in the article:
+For detailed information, including variable descriptions and model explanations, please refer to the article:
 
 @article{santos2024unsupervised,
   title={Unsupervised anomaly detection in spatio-temporal stream network sensor data},
