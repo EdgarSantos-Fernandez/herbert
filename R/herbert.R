@@ -5,6 +5,7 @@
 #' @name herbert
 #' @usage herbert
 #' @export herbert
+#' @authors c(person("Edgar", "Santos-Fernandez", role = c("aut", "cre","cph")))
 #' @format A data frame with multiple rows and 21 variables:
 #' \describe{
 #'   \item{date_time}{The date and time when the measurement was recorded. Format: YYYY-MM-DD HH:MM:SS.}
@@ -38,10 +39,10 @@
 #' library(ggplot2)
 #' library(dplyr)
 #' library(RColorBrewer)
+#' \donttest{
 #' # Turbidity (TSS) anomalies (labels / ground truth)
 #' cols <- c('gray', brewer.pal(8, 'Set1'))
-#' herbert %>%
-#'   ggplot(.) +
+#'   ggplot(herbert) +
 #'   geom_point(aes(x = date_time, y = tur, col = factor(tur_label)), size = 0.5) +
 #'   facet_wrap(~locID, nrow = 5, scales = 'free_y') +
 #'   scale_x_datetime(breaks = 'months') +
@@ -54,8 +55,7 @@
 #'   ggtitle('')
 #'
 #' # Predicted turbidity (TSS) anomalies identified using the Bayesian spatio-temporal model
-#' herbert %>%
-#'   ggplot(.) +
+#'   ggplot(herbert) +
 #'   geom_point(aes(x = date_time, y = tur, col = factor(tur_indicator)), size = 0.5) +
 #'   facet_wrap(~locID, nrow = 5, scales = 'free_y') +
 #'   scale_x_datetime(breaks = 'months') +
@@ -68,8 +68,7 @@
 #'   ggtitle('')
 #'
 #' # Water level events (ambient vs event)
-#' herbert %>%
-#'   ggplot(.) +
+#'   ggplot(herbert) +
 #'   geom_point(aes(x = date_time, y = level_i_st, col = factor(state_mult)), size = 0.5) +
 #'   facet_wrap(~locID, nrow = 5, scales = 'free_y') +
 #'   scale_x_datetime(breaks = 'months') +
@@ -78,5 +77,7 @@
 #'   xlab('') +
 #'   theme_bw() +
 #'   theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=1),
-#'         legend.title=
+#'         legend.title=element_blank()) +
+#'   ggtitle('')
+#'   }
 

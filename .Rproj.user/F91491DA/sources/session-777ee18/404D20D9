@@ -3,7 +3,7 @@
     "path": "C:/1/herbert/DESCRIPTION",
     "project_path": "DESCRIPTION",
     "type": "dcf",
-    "hash": "3166896324",
+    "hash": "250629383",
     "contents": "",
     "dirty": false,
     "created": 1726573873939.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "6,362",
+        "cursorPosition": "18,53",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1726575717,
+    "lastKnownWriteTime": 1726703732,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1726575717066,
+    "last_content_update": 1726703732201,
     "read_only": false,
     "read_only_alternatives": []
 }
